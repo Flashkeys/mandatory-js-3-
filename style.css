@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #242424;
+    text-align: center;
+  }
+  section {
+    background-color: #191919;
+    height: 40px;
+    text-align: center;
+    color: #191919;
+}
+  button {
+    font-size: 30px;
+    background-color: orangered;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+  }
+  img {
+    max-height: 350px;
+    max-width: 400px;
+    min-height: 350px;
+    min-width: 400px;
+  }
+  div {
+    text-align: center;
+    padding: 20px;
+  }
+  select {
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  h1, h2{
+      color: orangered;
+  }
+  #breeds {
+    overflow: scroll;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+  }
